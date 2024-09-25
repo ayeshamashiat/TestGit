@@ -27,4 +27,8 @@ public class MaxStack {
 
         return poppedValue;
     }
+
+    public int max() {
+        return maxStack.peek();
+    }
 }
