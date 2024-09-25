@@ -1,24 +1,24 @@
 public class NumWordPrinter {
-    public String printWord(int n){
+    public void printWord(int n){
         if(n%2==0){
-            return "EVEN";
+            System.out.println("EVEN");
         }
         else if (n%11==0) {
-            return "PrimeEleven";
+            System.out.println("PrimeEleven");
         }
         else if (n%13==0){
-            return "LuckyThirteen";
+            System.out.println("LuckyThirteen");
         }
         else if(n%2 ==0 && n%11==0){
-            return "EvenPrimeEleven";
+            System.out.println("EvenPrimeEleven");
         }
         else if(n%2==0 && n%13==0){
-            return "EvenLuckyThirteen";
+            System.out.println("EvenLuckyThirteen");
         }
         else if(n%11==0 && n%2==0 && n%13==0){
-            return "EvenPrimeLuckyy";
+            System.out.println("EvenPrimeLuckyy");
         }
 
-        return "OddOneOut";
+        System.out.println("OddOneOut");
     }
 }
