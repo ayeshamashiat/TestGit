@@ -1,5 +1,5 @@
 public class NumWordPrinter {
-    public void printWord(int n){
+    public String printWord(int n){
         if(n%2==0){
             System.out.println("EVEN");
         }
@@ -20,5 +20,6 @@ public class NumWordPrinter {
         }
 
         System.out.println("OddOneOut");
+        return null;
     }
 }
