@@ -16,7 +16,7 @@ public class NumWordPrinter {
             return "EvenLuckyThirteen";
         }
         else if(n%11==0 && n%2==0 && n%13==0){
-            return "EvenPrimeLucky";
+            return "EvenPrimeLuckyy";
         }
 
         return "OddOneOut";
