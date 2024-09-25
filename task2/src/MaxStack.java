@@ -16,4 +16,15 @@ public class MaxStack {
             maxStack.push(value);
         }
     }
+
+    public int pop() {
+        // Pop from mainStack
+        int poppedValue = mainStack.pop();
+
+        if (poppedValue == maxStack.peek()) {
+            maxStack.pop();
+        }
+
+        return poppedValue;
+    }
 }
