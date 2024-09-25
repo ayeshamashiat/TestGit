@@ -8,4 +8,12 @@ public class MaxStack {
         mainStack = new Stack<>();
         maxStack = new Stack<>();
     }
+
+    public void push(int value) {
+        mainStack.push(value);
+
+        if (maxStack.isEmpty() || value >= maxStack.peek()) {
+            maxStack.push(value);
+        }
+    }
 }
